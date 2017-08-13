@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DeAuther WebGUI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="wifi_scanresults_always_scanning"> WiFi ScanResults </string>
+    <string name="aps_scan">APs Scan</string>
+    <string name="stations_scan">Stations Scan</string>
+    <string name="attacks_list">Attacks List</string>
+    <string name="deauther_settings">DeAuther Settings</string>
+    <string name="esp8266_deauther_webgui">ESP8266 DeAuther WebGUI</string>
+    <string name="pratimmajumder1_gmail_com">pratimmajumder1@gmail.com</string>
+    <string name="help_scan">Till the latest release (v1.6) of SpaceHunn\'s ESP8266 DeAuther, SpaceHunn has not implemented auto-wifiscan feature. So, I\'ve put this feature in this app to check that with your phone\'s hardware and then perform a scan on deauther\'s gui.</string>
+    <string name="about">About</string>
+</resources>
