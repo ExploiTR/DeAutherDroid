@@ -3,6 +3,11 @@
     android:id="@+id/textList"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:fontFamily="monospace"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:textAlignment="center"
+    android:textAllCaps="false"
     android:textSize="15sp"
-    android:padding="10dp"
-    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+    android:textStyle="bold"
+    android:typeface="monospace" />
