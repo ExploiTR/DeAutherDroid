@@ -7,9 +7,9 @@
             android:icon="@drawable/ic_apscan"
             android:title="@string/aps_scan" />
         <item
-            android:id="@+id/action_stations"
-            android:icon="@drawable/ic_stations"
-            android:title="@string/stations_scan" />
+            android:id="@+id/action_ssid"
+            android:icon="@drawable/ic_ssid"
+            android:title="@string/ssids_for_b_p" />
         <item
             android:id="@+id/action_attacks"
             android:icon="@drawable/ic_attacks"
@@ -20,8 +20,8 @@
             android:title="@string/deauther_settings" />
 
         <item
-            android:checkable="false"
             android:id="@+id/about"
+            android:checkable="false"
             android:icon="@drawable/ic_developers"
             android:title="@string/about" />
 
