@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Switch
+        android:id="@+id/logcat"
+        style="@style/Widget.AppCompat.CompoundButton.Switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_logcat" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:visibility="gone" />
+
+    <Switch
+        android:id="@+id/wiRand"
+        style="@style/Widget.AppCompat.CompoundButton.Switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_random_coloring_wifi_list" />
+
+</LinearLayout>

@@ -12,4 +12,9 @@
     <string name="help_scan">Till the latest release (v1.6) of SpaceHunn\'s ESP8266 DeAuther, SpaceHunn has not implemented auto-wifiscan feature. So, I\'ve put this feature in this app to check that with your phone\'s hardware and then perform a scan on deauther\'s gui.</string>
     <string name="about">About</string>
     <string name="ssids_for_b_p">SSIDs for B/P</string>
+    <string name="settings">Settings</string>
+    <string name="enable_logcat">Enable Logcat</string>
+    <string name="enable_random_coloring_wifi_list">Enable Random Coloring WIFI list</string>
+    <string name="location">Location</string>
+    <string name="are_you_sure_huh_can_t_see_an_esp">Are you sure? Huh? Can\'t see an esp</string>
 </resources>

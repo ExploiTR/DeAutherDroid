@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="50dp"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
     tools:context="spacehunn.exploitr.deautherwebgui.MainActivity"
     tools:showIn="@layout/app_bar_main">
@@ -12,13 +13,44 @@
         android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:background="#00FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/warn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/boom"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_network_conn_fail"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boom"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/are_you_sure_huh_can_t_see_an_esp"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
 
     <WebView
         android:id="@+id/mainRender"
         style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
         android:visibility="invisible" />
 
 </RelativeLayout>
+
+

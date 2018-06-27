@@ -22,14 +22,14 @@ android {
         applicationId "spacehunn.exploitr.deautherwebgui"
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 205
+        versionCode code()
         versionName "2.0.5"
         vectorDrawables.useSupportLibrary = true
     }
-    buildTypes {
-        release {
-        }
-    }
+}
+
+static int code() {
+    return (int)System.currentTimeSeconds()
 }
 
 dependencies {
@@ -40,3 +40,5 @@ dependencies {
         transitive = true
     }
 }
+
+
