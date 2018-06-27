@@ -8,5 +8,5 @@
 ### `Download Link` : https://github.com/ExploiTR/DeAutherDroid/releases
 
 
-### `Screenshots` : https://github.com/ExploiTR/DeAutherDroid/tree/master/screenshots
+### `Screenshots` : https://github.com/ExploiTR/DeAutherDroid/tree/master/screenshots (Old : Will update)
 
