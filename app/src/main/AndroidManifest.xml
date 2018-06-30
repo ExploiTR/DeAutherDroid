@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="spacehunn.exploitr.deautherwebgui">
 
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
@@ -35,7 +34,7 @@
         </activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="########################################" />
+            android:value="$#########################@$$$$" />
     </application>
 
 </manifest>
