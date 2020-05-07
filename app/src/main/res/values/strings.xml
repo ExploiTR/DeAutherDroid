@@ -8,8 +8,8 @@
     <string name="attacks_list">Attacks List</string>
     <string name="deauther_settings">DeAuther Settings</string>
     <string name="esp8266_deauther_webgui">ESP8266 DeAuther WebGUI</string>
-    <string name="pratimmajumder1_gmail_com">pratimmajumder1@gmail.com</string>
-    <string name="help_scan">Till the latest release (v2.0.5) of SpaceHunn\'s ESP8266 DeAuther, SpaceHunn has not implemented auto-wifiscan feature. So, I\'ve put this feature in this app to check that with your phone\'s hardware and then perform a scan on deauther\'s gui.</string>
+    <string name="pratimmajumder1_gmail_com">pratimdevonplay@gmail.com</string>
+    <string name="help_scan">Till the release (v2.0.5) of SpaceHunn\'s ESP8266 DeAuther, SpaceHunn has not implemented auto-wifiscan feature. So, I\'ve put this feature in this app to check that with your phone\'s hardware and then perform a scan on deauther\'s gui.</string>
     <string name="about">About</string>
     <string name="ssids_for_b_p">SSIDs for B/P</string>
     <string name="settings">Settings</string>

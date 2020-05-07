@@ -12,7 +12,6 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:name=".Deauther"
         android:allowBackup="false"
@@ -34,7 +33,7 @@
         </activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="$#########################@$$$$" />
+            android:value="#########################################" />
     </application>
 
 </manifest>
