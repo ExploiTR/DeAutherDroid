@@ -10,6 +10,7 @@
     <string name="esp8266_deauther_webgui">ESP8266 DeAuther WebGUI</string>
     <string name="pratimmajumder1_gmail_com">pratimdevonplay@gmail.com</string>
     <string name="help_scan">Till the release (v2.0.5) of SpaceHunn\'s ESP8266 DeAuther, SpaceHunn has not implemented auto-wifiscan feature. So, I\'ve put this feature in this app to check that with your phone\'s hardware and then perform a scan on deauther\'s gui.</string>
+    <string name="help_scan_limit">3rd party apps can not scan wifi more than 4 times within a minute period in Android 9+ devices</string>
     <string name="about">About</string>
     <string name="ssids_for_b_p">SSIDs for B/P</string>
     <string name="settings">Settings</string>
